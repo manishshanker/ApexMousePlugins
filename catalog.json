@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T11:51:00.000Z",
+  "lastUpdated": "2026-10-12T11:21:41.815Z",
   "totalPlugins": 14,
   "plugins": [
     {
@@ -15,7 +15,7 @@
       "targetAppName": "Global (All Apps)",
       "isGlobal": true,
       "category": "productivity",
-      "description": "Universal 8-way dial for Mission Control, App Expos\u00e9, Screenshot Area, Show Desktop, Mute, and Drop Shelf.",
+      "description": "Universal 8-way dial for Mission Control, App Exposé, Screenshot Area, Show Desktop, Mute, and Drop Shelf.",
       "icon": "sparkles",
       "file": "plugins/com.community.macos-power-tools.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.macos-power-tools.apexplugin",
@@ -28,14 +28,14 @@
             "systemAction": "missionControl"
           },
           {
-            "label": "App Expos\u00e9",
+            "label": "App Exposé",
             "systemImage": "macwindow.on.rectangle",
             "systemAction": "appExpose"
           },
           {
             "label": "Screenshot",
             "systemImage": "camera.viewfinder",
-            "shortcut": "\u21e7\u23184"
+            "shortcut": "⇧⌘4"
           },
           {
             "label": "Show Desktop",
@@ -45,7 +45,7 @@
           {
             "label": "Spotlight",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318Space"
+            "shortcut": "⌘Space"
           },
           {
             "label": "Mute Audio",
@@ -71,7 +71,8 @@
             "systemAction": "showRadialMenu"
           }
         }
-      }
+      },
+      "emoji": "✨"
     },
     {
       "id": "com.community.window-manager-dial",
@@ -138,7 +139,8 @@
             "systemAction": "showWindowRadialDial"
           }
         }
-      }
+      },
+      "emoji": "🪟"
     },
     {
       "id": "com.community.mx-master-tuning",
@@ -172,12 +174,12 @@
           {
             "label": "New Window",
             "systemImage": "plus.rectangle.on.rectangle",
-            "shortcut": "\u2318N"
+            "shortcut": "⌘N"
           },
           {
             "label": "Close Window",
             "systemImage": "xmark.circle",
-            "shortcut": "\u2318W"
+            "shortcut": "⌘W"
           },
           {
             "label": "Drop Shelf",
@@ -213,7 +215,8 @@
           "duration": 0.22,
           "smoothScrollEnabled": true
         }
-      }
+      },
+      "emoji": "🖱️"
     },
     {
       "id": "com.community.browser-supercharger",
@@ -237,42 +240,42 @@
           {
             "label": "Back",
             "systemImage": "chevron.left",
-            "shortcut": "\u2318["
+            "shortcut": "⌘["
           },
           {
             "label": "Forward",
             "systemImage": "chevron.right",
-            "shortcut": "\u2318]"
+            "shortcut": "⌘]"
           },
           {
             "label": "New Tab",
             "systemImage": "plus",
-            "shortcut": "\u2318T"
+            "shortcut": "⌘T"
           },
           {
             "label": "Close Tab",
             "systemImage": "xmark",
-            "shortcut": "\u2318W"
+            "shortcut": "⌘W"
           },
           {
             "label": "Reopen Tab",
             "systemImage": "arrow.counterclockwise",
-            "shortcut": "\u21e7\u2318T"
+            "shortcut": "⇧⌘T"
           },
           {
             "label": "Find in Page",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318F"
+            "shortcut": "⌘F"
           },
           {
             "label": "Reader Mode",
             "systemImage": "doc.plaintext",
-            "shortcut": "\u21e7\u2318R"
+            "shortcut": "⇧⌘R"
           },
           {
             "label": "Bookmark",
             "systemImage": "star.fill",
-            "shortcut": "\u2318D"
+            "shortcut": "⌘D"
           }
         ],
         "buttonMappings": {
@@ -283,7 +286,8 @@
             "systemAction": "cycleNextTab"
           }
         }
-      }
+      },
+      "emoji": "🧭"
     },
     {
       "id": "com.community.figma-pro",
@@ -307,37 +311,37 @@
           {
             "label": "Auto Layout",
             "systemImage": "rectangle.split.2x1",
-            "shortcut": "\u21e7A"
+            "shortcut": "⇧A"
           },
           {
             "label": "Frame",
             "systemImage": "square.dashed",
-            "shortcut": "\u2325\u2318G"
+            "shortcut": "⌥⌘G"
           },
           {
             "label": "Group",
             "systemImage": "folder",
-            "shortcut": "\u2318G"
+            "shortcut": "⌘G"
           },
           {
             "label": "Component",
             "systemImage": "diamond",
-            "shortcut": "\u2325\u2318K"
+            "shortcut": "⌥⌘K"
           },
           {
             "label": "Zoom to Fit",
             "systemImage": "arrow.up.left.and.arrow.down.right",
-            "shortcut": "\u21e71"
+            "shortcut": "⇧1"
           },
           {
             "label": "Zoom 100%",
             "systemImage": "1.circle",
-            "shortcut": "\u21e70"
+            "shortcut": "⇧0"
           },
           {
             "label": "Flatten",
             "systemImage": "arrow.triangle.merge",
-            "shortcut": "\u2318E"
+            "shortcut": "⌘E"
           },
           {
             "label": "Hand Tool",
@@ -347,17 +351,18 @@
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u2318Z"
+            "shortcut": "⌘Z"
           },
           "button4_click": {
-            "shortcut": "\u21e7\u2318Z"
+            "shortcut": "⇧⌘Z"
           }
         },
         "scrollOverrides": {
           "speed": 1.15,
           "smoothScrollEnabled": true
         }
-      }
+      },
+      "emoji": "🎨"
     },
     {
       "id": "com.community.vscode-coder",
@@ -381,53 +386,54 @@
           {
             "label": "Command Palette",
             "systemImage": "command",
-            "shortcut": "\u21e7\u2318P"
+            "shortcut": "⇧⌘P"
           },
           {
             "label": "Quick Open",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318P"
+            "shortcut": "⌘P"
           },
           {
             "label": "Terminal",
             "systemImage": "terminal.fill",
-            "shortcut": "\u2303`"
+            "shortcut": "⌃`"
           },
           {
             "label": "Format Code",
             "systemImage": "text.alignleft",
-            "shortcut": "\u21e7\u2325F"
+            "shortcut": "⇧⌥F"
           },
           {
             "label": "Comment Line",
             "systemImage": "text.quote",
-            "shortcut": "\u2318/"
+            "shortcut": "⌘/"
           },
           {
             "label": "Sidebar",
             "systemImage": "sidebar.left",
-            "shortcut": "\u2318B"
+            "shortcut": "⌘B"
           },
           {
             "label": "Git Changes",
             "systemImage": "arrow.triangle.branch",
-            "shortcut": "\u2303\u21e7G"
+            "shortcut": "⌃⇧G"
           },
           {
             "label": "Multi-Cursor",
             "systemImage": "cursorarrow.motionlines",
-            "shortcut": "\u2325\u2318Up Arrow"
+            "shortcut": "⌥⌘Up Arrow"
           }
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u2318["
+            "shortcut": "⌘["
           },
           "button4_click": {
-            "shortcut": "\u2318]"
+            "shortcut": "⌘]"
           }
         }
-      }
+      },
+      "emoji": "💻"
     },
     {
       "id": "com.community.finalcut-deck",
@@ -451,7 +457,7 @@
           {
             "label": "Blade Cut",
             "systemImage": "scissors",
-            "shortcut": "\u2318B"
+            "shortcut": "⌘B"
           },
           {
             "label": "Select Tool",
@@ -466,17 +472,17 @@
           {
             "label": "Ripple Delete",
             "systemImage": "trash.fill",
-            "shortcut": "\u2325\u232b"
+            "shortcut": "⌥⌫"
           },
           {
             "label": "Zoom In",
             "systemImage": "plus.magnifyingglass",
-            "shortcut": "\u2318="
+            "shortcut": "⌘="
           },
           {
             "label": "Zoom Out",
             "systemImage": "minus.magnifyingglass",
-            "shortcut": "\u2318-"
+            "shortcut": "⌘-"
           },
           {
             "label": "Play / Stop",
@@ -489,7 +495,8 @@
             "shortcut": "N"
           }
         ]
-      }
+      },
+      "emoji": "🎬"
     },
     {
       "id": "com.community.blender-orbit",
@@ -538,7 +545,7 @@
           {
             "label": "Rendered View",
             "systemImage": "sparkles",
-            "shortcut": "\u21e7Z"
+            "shortcut": "⇧Z"
           },
           {
             "label": "Focus Active",
@@ -551,7 +558,8 @@
             "shortcut": "F3"
           }
         ]
-      }
+      },
+      "emoji": "🧊"
     },
     {
       "id": "com.community.antigravity-flow",
@@ -575,50 +583,50 @@
           {
             "label": "Command Palette",
             "systemImage": "command",
-            "shortcut": "\u21e7\u2318P"
+            "shortcut": "⇧⌘P"
           },
           {
             "label": "Agent Prompt",
             "systemImage": "sparkles",
-            "shortcut": "\u2318K"
+            "shortcut": "⌘K"
           },
           {
             "label": "Terminal",
             "systemImage": "terminal.fill",
-            "shortcut": "\u2303`"
+            "shortcut": "⌃`"
           },
           {
             "label": "Format Code",
             "systemImage": "text.alignleft",
-            "shortcut": "\u21e7\u2325F"
+            "shortcut": "⇧⌥F"
           },
           {
             "label": "Git Changes",
             "systemImage": "arrow.triangle.branch",
-            "shortcut": "\u2303\u21e7G"
+            "shortcut": "⌃⇧G"
           },
           {
             "label": "File Explorer",
             "systemImage": "sidebar.left",
-            "shortcut": "\u2318B"
+            "shortcut": "⌘B"
           },
           {
             "label": "Run Task",
             "systemImage": "play.fill",
-            "shortcut": "\u21e7\u2318B"
+            "shortcut": "⇧⌘B"
           },
           {
             "label": "Quick Open",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318P"
+            "shortcut": "⌘P"
           }
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u2318Z"
+            "shortcut": "⌘Z"
           },
           "button4_click": {
-            "shortcut": "\u21e7\u2318Z"
+            "shortcut": "⇧⌘Z"
           }
         },
         "scrollOverrides": {
@@ -626,7 +634,8 @@
           "duration": 0.18,
           "smoothScrollEnabled": true
         }
-      }
+      },
+      "emoji": "⚡"
     },
     {
       "id": "com.community.ms-edge-deck",
@@ -650,42 +659,42 @@
           {
             "label": "Back",
             "systemImage": "chevron.left",
-            "shortcut": "\u2318["
+            "shortcut": "⌘["
           },
           {
             "label": "Forward",
             "systemImage": "chevron.right",
-            "shortcut": "\u2318]"
+            "shortcut": "⌘]"
           },
           {
             "label": "Copilot AI",
             "systemImage": "sparkles.tv",
-            "shortcut": "\u21e7\u2318."
+            "shortcut": "⇧⌘."
           },
           {
             "label": "Vertical Tabs",
             "systemImage": "sidebar.left",
-            "shortcut": "\u21e7\u2318,"
+            "shortcut": "⇧⌘,"
           },
           {
             "label": "Reader Mode",
             "systemImage": "doc.plaintext",
-            "shortcut": "\u21e7\u2318R"
+            "shortcut": "⇧⌘R"
           },
           {
             "label": "DevTools",
             "systemImage": "hammer.fill",
-            "shortcut": "\u2325\u2318I"
+            "shortcut": "⌥⌘I"
           },
           {
             "label": "InPrivate Window",
             "systemImage": "eye.slash.fill",
-            "shortcut": "\u21e7\u2318N"
+            "shortcut": "⇧⌘N"
           },
           {
             "label": "Reopen Tab",
             "systemImage": "arrow.counterclockwise",
-            "shortcut": "\u21e7\u2318T"
+            "shortcut": "⇧⌘T"
           }
         ],
         "buttonMappings": {
@@ -701,7 +710,8 @@
           "duration": 0.2,
           "smoothScrollEnabled": true
         }
-      }
+      },
+      "emoji": "🌐"
     },
     {
       "id": "com.community.ms-teams-meeting",
@@ -725,53 +735,54 @@
           {
             "label": "Mute / Unmute",
             "systemImage": "mic.slash.fill",
-            "shortcut": "\u21e7\u2318M"
+            "shortcut": "⇧⌘M"
           },
           {
             "label": "Camera On/Off",
             "systemImage": "video.fill",
-            "shortcut": "\u21e7\u2318O"
+            "shortcut": "⇧⌘O"
           },
           {
             "label": "Raise Hand",
             "systemImage": "hand.raised.fill",
-            "shortcut": "\u21e7\u2318K"
+            "shortcut": "⇧⌘K"
           },
           {
             "label": "Share Screen",
             "systemImage": "rectangle.on.rectangle",
-            "shortcut": "\u21e7\u2318E"
+            "shortcut": "⇧⌘E"
           },
           {
             "label": "Search Chats",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318E"
+            "shortcut": "⌘E"
           },
           {
             "label": "Filter Unread",
             "systemImage": "line.3.horizontal.decrease.circle",
-            "shortcut": "\u21e7\u2318U"
+            "shortcut": "⇧⌘U"
           },
           {
             "label": "Next Chat",
             "systemImage": "bubble.left.and.bubble.right.fill",
-            "shortcut": "\u2325Down Arrow"
+            "shortcut": "⌥Down Arrow"
           },
           {
             "label": "Previous Chat",
             "systemImage": "bubble.left",
-            "shortcut": "\u2325Up Arrow"
+            "shortcut": "⌥Up Arrow"
           }
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u21e7\u2318M"
+            "shortcut": "⇧⌘M"
           },
           "button4_click": {
-            "shortcut": "\u21e7\u2318K"
+            "shortcut": "⇧⌘K"
           }
         }
-      }
+      },
+      "emoji": "👥"
     },
     {
       "id": "com.community.whatsapp-connect",
@@ -795,53 +806,54 @@
           {
             "label": "Search Chats",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318F"
+            "shortcut": "⌘F"
           },
           {
             "label": "New Chat",
             "systemImage": "square.and.pencil",
-            "shortcut": "\u2318N"
+            "shortcut": "⌘N"
           },
           {
             "label": "Archive Chat",
             "systemImage": "archivebox.fill",
-            "shortcut": "\u2318E"
+            "shortcut": "⌘E"
           },
           {
             "label": "Mute Chat",
             "systemImage": "bell.slash.fill",
-            "shortcut": "\u21e7\u2318M"
+            "shortcut": "⇧⌘M"
           },
           {
             "label": "Attach Media",
             "systemImage": "paperclip",
-            "shortcut": "\u2318U"
+            "shortcut": "⌘U"
           },
           {
             "label": "Next Chat",
             "systemImage": "chevron.down",
-            "shortcut": "\u2303Tab"
+            "shortcut": "⌃Tab"
           },
           {
             "label": "Previous Chat",
             "systemImage": "chevron.up",
-            "shortcut": "\u2303\u21e7Tab"
+            "shortcut": "⌃⇧Tab"
           },
           {
             "label": "Close Chat",
             "systemImage": "xmark",
-            "shortcut": "\u2318W"
+            "shortcut": "⌘W"
           }
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u2303\u21e7Tab"
+            "shortcut": "⌃⇧Tab"
           },
           "button4_click": {
-            "shortcut": "\u2303Tab"
+            "shortcut": "⌃Tab"
           }
         }
-      }
+      },
+      "emoji": "💬"
     },
     {
       "id": "com.community.slack-workspace",
@@ -865,53 +877,54 @@
           {
             "label": "Quick Switcher",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318K"
+            "shortcut": "⌘K"
           },
           {
             "label": "Toggle Huddle",
             "systemImage": "headphones",
-            "shortcut": "\u21e7\u2318H"
+            "shortcut": "⇧⌘H"
           },
           {
             "label": "Mark All Read",
             "systemImage": "checkmark.circle",
-            "shortcut": "\u21e7Escape"
+            "shortcut": "⇧Escape"
           },
           {
             "label": "Threads",
             "systemImage": "bubble.left.and.bubble.right",
-            "shortcut": "\u21e7\u2318T"
+            "shortcut": "⇧⌘T"
           },
           {
             "label": "Next Unread",
             "systemImage": "arrow.down.circle",
-            "shortcut": "\u2325\u21e7Down Arrow"
+            "shortcut": "⌥⇧Down Arrow"
           },
           {
             "label": "Prev Unread",
             "systemImage": "arrow.up.circle",
-            "shortcut": "\u2325\u21e7Up Arrow"
+            "shortcut": "⌥⇧Up Arrow"
           },
           {
             "label": "New Message",
             "systemImage": "square.and.pencil",
-            "shortcut": "\u2318N"
+            "shortcut": "⌘N"
           },
           {
             "label": "Activity",
             "systemImage": "bell.fill",
-            "shortcut": "\u21e7\u2318M"
+            "shortcut": "⇧⌘M"
           }
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u2325Up Arrow"
+            "shortcut": "⌥Up Arrow"
           },
           "button4_click": {
-            "shortcut": "\u2325Down Arrow"
+            "shortcut": "⌥Down Arrow"
           }
         }
-      }
+      },
+      "emoji": "💼"
     },
     {
       "id": "com.community.notion-workbench",
@@ -935,50 +948,50 @@
           {
             "label": "Quick Find",
             "systemImage": "magnifyingglass",
-            "shortcut": "\u2318P"
+            "shortcut": "⌘P"
           },
           {
             "label": "New Page",
             "systemImage": "plus.square",
-            "shortcut": "\u2318N"
+            "shortcut": "⌘N"
           },
           {
             "label": "Back",
             "systemImage": "chevron.left",
-            "shortcut": "\u2318["
+            "shortcut": "⌘["
           },
           {
             "label": "Forward",
             "systemImage": "chevron.right",
-            "shortcut": "\u2318]"
+            "shortcut": "⌘]"
           },
           {
             "label": "To-do Box",
             "systemImage": "checkmark.square",
-            "shortcut": "\u2325\u23184"
+            "shortcut": "⌥⌘4"
           },
           {
             "label": "Toggle List",
             "systemImage": "list.bullet.indent",
-            "shortcut": "\u2325\u23187"
+            "shortcut": "⌥⌘7"
           },
           {
             "label": "Duplicate",
             "systemImage": "doc.on.doc",
-            "shortcut": "\u2318D"
+            "shortcut": "⌘D"
           },
           {
             "label": "Comment",
             "systemImage": "bubble.right",
-            "shortcut": "\u21e7\u2318M"
+            "shortcut": "⇧⌘M"
           }
         ],
         "buttonMappings": {
           "button3_click": {
-            "shortcut": "\u2318["
+            "shortcut": "⌘["
           },
           "button4_click": {
-            "shortcut": "\u2318]"
+            "shortcut": "⌘]"
           }
         },
         "scrollOverrides": {
@@ -986,7 +999,8 @@
           "duration": 0.18,
           "smoothScrollEnabled": true
         }
-      }
+      },
+      "emoji": "📝"
     }
   ]
 }
