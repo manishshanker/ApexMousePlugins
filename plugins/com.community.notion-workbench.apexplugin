@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.notion-workbench",
+  "name": "Notion Knowledge Workbench",
+  "author": {
+    "name": "ThoughtCraft",
+    "url": "https://apexmouse.tech/community"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "notion.id",
+  "targetAppName": "Notion",
+  "category": "productivity",
+  "description": "Quick search, New page, Back/Forward page traversal, Toggle lists, and To-do checklists.",
+  "icon": "doc.text.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Quick Find",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⌘P"
+      },
+      {
+        "label": "New Page",
+        "systemImage": "plus.square",
+        "shortcut": "⌘N"
+      },
+      {
+        "label": "Back",
+        "systemImage": "chevron.left",
+        "shortcut": "⌘["
+      },
+      {
+        "label": "Forward",
+        "systemImage": "chevron.right",
+        "shortcut": "⌘]"
+      },
+      {
+        "label": "To-do Box",
+        "systemImage": "checkmark.square",
+        "shortcut": "⌥⌘4"
+      },
+      {
+        "label": "Toggle List",
+        "systemImage": "list.bullet.indent",
+        "shortcut": "⌥⌘7"
+      },
+      {
+        "label": "Duplicate",
+        "systemImage": "doc.on.doc",
+        "shortcut": "⌘D"
+      },
+      {
+        "label": "Comment",
+        "systemImage": "bubble.right",
+        "shortcut": "⇧⌘M"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "⌘["
+      },
+      "button4_click": {
+        "shortcut": "⌘]"
+      }
+    },
+    "scrollOverrides": {
+      "speed": 1.15,
+      "duration": 0.18,
+      "smoothScrollEnabled": true
+    }
+  }
+}
