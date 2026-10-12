@@ -4,7 +4,7 @@
   "name": "Universal Browser Power Deck",
   "author": {
     "name": "WebFlows",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "*",

@@ -4,7 +4,7 @@
   "name": "Microsoft Edge SuperDeck",
   "author": {
     "name": "EdgePower",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "com.microsoft.edgemac",

@@ -4,7 +4,7 @@
   "name": "Figma SuperDial & Canvas",
   "author": {
     "name": "DesignCraft",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "com.figma.Desktop",

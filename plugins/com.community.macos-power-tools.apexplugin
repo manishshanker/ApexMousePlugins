@@ -4,7 +4,7 @@
   "name": "macOS System Power Tools",
   "author": {
     "name": "MacPowerTools",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "*",

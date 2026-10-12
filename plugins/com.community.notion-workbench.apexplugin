@@ -4,7 +4,7 @@
   "name": "Notion Knowledge Workbench",
   "author": {
     "name": "ThoughtCraft",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "notion.id",

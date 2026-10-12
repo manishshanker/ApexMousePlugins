@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T11:21:41.815Z",
+  "lastUpdated": "2026-10-12T11:35:00.743Z",
   "totalPlugins": 14,
   "plugins": [
     {
@@ -8,7 +8,7 @@
       "name": "macOS System Power Tools",
       "author": {
         "name": "MacPowerTools",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "*",
@@ -79,7 +79,7 @@
       "name": "Window Snapping & Space Dial",
       "author": {
         "name": "WindowForge",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "*",
@@ -147,7 +147,7 @@
       "name": "Logitech MX Master 3S Tuning",
       "author": {
         "name": "ErgoDesk",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "*",
@@ -223,7 +223,7 @@
       "name": "Universal Browser Power Deck",
       "author": {
         "name": "WebFlows",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "*",
@@ -294,7 +294,7 @@
       "name": "Figma SuperDial & Canvas",
       "author": {
         "name": "DesignCraft",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.figma.Desktop",
@@ -369,7 +369,7 @@
       "name": "VS Code & Cursor Velocity",
       "author": {
         "name": "DevTools",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.microsoft.VSCode",
@@ -440,7 +440,7 @@
       "name": "Final Cut Precision Deck",
       "author": {
         "name": "CinemaCut",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.apple.FinalCut",
@@ -503,7 +503,7 @@
       "name": "Blender 4.x Viewport Orbit",
       "author": {
         "name": "PolyModeler",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "org.blenderfoundation.blender",
@@ -566,7 +566,7 @@
       "name": "Antigravity AI IDE Velocity",
       "author": {
         "name": "AgyTeam",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.google.antigravity",
@@ -642,7 +642,7 @@
       "name": "Microsoft Edge SuperDeck",
       "author": {
         "name": "EdgePower",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.microsoft.edgemac",
@@ -718,7 +718,7 @@
       "name": "Microsoft Teams Meeting Deck",
       "author": {
         "name": "CollabDesk",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.microsoft.teams2",
@@ -789,7 +789,7 @@
       "name": "WhatsApp Quick Dial",
       "author": {
         "name": "ChatFlow",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "net.whatsapp.WhatsApp",
@@ -860,7 +860,7 @@
       "name": "Slack Workspace Velocity",
       "author": {
         "name": "WorkSync",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "com.tinyspeck.slackmacgap",
@@ -931,7 +931,7 @@
       "name": "Notion Knowledge Workbench",
       "author": {
         "name": "ThoughtCraft",
-        "url": "https://apexmouse.tech/community"
+        "url": "https://apexmouse.tech/plugins"
       },
       "version": "1.0.0",
       "targetBundleId": "notion.id",

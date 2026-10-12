@@ -4,7 +4,7 @@
   "name": "Antigravity AI IDE Velocity",
   "author": {
     "name": "AgyTeam",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "com.google.antigravity",

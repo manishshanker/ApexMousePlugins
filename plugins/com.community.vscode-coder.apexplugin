@@ -4,7 +4,7 @@
   "name": "VS Code & Cursor Velocity",
   "author": {
     "name": "DevTools",
-    "url": "https://apexmouse.tech/community"
+    "url": "https://apexmouse.tech/plugins"
   },
   "version": "1.0.0",
   "targetBundleId": "com.microsoft.VSCode",
