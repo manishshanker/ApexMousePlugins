@@ -15,11 +15,63 @@
       "targetAppName": "Global (All Apps)",
       "isGlobal": true,
       "category": "productivity",
-      "description": "Universal 8-way dial for Mission Control, App Exposé, Screenshot Area, Show Desktop, Mute, and Drop Shelf.",
+      "description": "Universal 8-way dial for Mission Control, App Expos\u00e9, Screenshot Area, Show Desktop, Mute, and Drop Shelf.",
       "icon": "sparkles",
       "file": "plugins/com.community.macos-power-tools.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.macos-power-tools.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.macos-power-tools"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.macos-power-tools",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Mission Control",
+            "systemImage": "square.2.layers.3d.top.filled",
+            "systemAction": "missionControl"
+          },
+          {
+            "label": "App Expos\u00e9",
+            "systemImage": "macwindow.on.rectangle",
+            "systemAction": "appExpose"
+          },
+          {
+            "label": "Screenshot",
+            "systemImage": "camera.viewfinder",
+            "shortcut": "\u21e7\u23184"
+          },
+          {
+            "label": "Show Desktop",
+            "systemImage": "menubar.dock.rectangle",
+            "systemAction": "showDesktop"
+          },
+          {
+            "label": "Spotlight",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318Space"
+          },
+          {
+            "label": "Mute Audio",
+            "systemImage": "speaker.slash.fill",
+            "systemAction": "mute"
+          },
+          {
+            "label": "Drop Shelf",
+            "systemImage": "tray.and.arrow.down.fill",
+            "systemAction": "toggleDropShelf"
+          },
+          {
+            "label": "Smart Zoom",
+            "systemImage": "plus.magnifyingglass",
+            "systemAction": "smartZoom"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "systemAction": "missionControl"
+          },
+          "button4_click": {
+            "systemAction": "showRadialMenu"
+          }
+        }
+      }
     },
     {
       "id": "com.community.window-manager-dial",
@@ -37,7 +89,56 @@
       "icon": "rectangle.split.2x1.fill",
       "file": "plugins/com.community.window-manager-dial.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.window-manager-dial.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.window-manager-dial"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.window-manager-dial",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Snap Left",
+            "systemImage": "rectangle.righthalf.inset.filled",
+            "systemAction": "snapLeft"
+          },
+          {
+            "label": "Snap Right",
+            "systemImage": "rectangle.leadinghalf.inset.filled",
+            "systemAction": "snapRight"
+          },
+          {
+            "label": "Maximize",
+            "systemImage": "arrow.up.left.and.arrow.down.right",
+            "systemAction": "snapMaximize"
+          },
+          {
+            "label": "Center",
+            "systemImage": "square.inset.filled",
+            "systemAction": "snapCenter"
+          },
+          {
+            "label": "Snap Top",
+            "systemImage": "rectangle.tophalf.inset.filled",
+            "systemAction": "snapTop"
+          },
+          {
+            "label": "Snap Bottom",
+            "systemImage": "rectangle.bottomhalf.inset.filled",
+            "systemAction": "snapBottom"
+          },
+          {
+            "label": "Next Display",
+            "systemImage": "display.2",
+            "systemAction": "snapNextDisplay"
+          },
+          {
+            "label": "Restore Size",
+            "systemImage": "arrow.counterclockwise",
+            "systemAction": "snapRestore"
+          }
+        ],
+        "buttonMappings": {
+          "button4_click": {
+            "systemAction": "showWindowRadialDial"
+          }
+        }
+      }
     },
     {
       "id": "com.community.mx-master-tuning",
@@ -55,7 +156,64 @@
       "icon": "computermouse.fill",
       "file": "plugins/com.community.mx-master-tuning.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.mx-master-tuning.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.mx-master-tuning"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.mx-master-tuning",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Mission Control",
+            "systemImage": "square.2.layers.3d.top.filled",
+            "systemAction": "missionControl"
+          },
+          {
+            "label": "Show Desktop",
+            "systemImage": "menubar.dock.rectangle",
+            "systemAction": "showDesktop"
+          },
+          {
+            "label": "New Window",
+            "systemImage": "plus.rectangle.on.rectangle",
+            "shortcut": "\u2318N"
+          },
+          {
+            "label": "Close Window",
+            "systemImage": "xmark.circle",
+            "shortcut": "\u2318W"
+          },
+          {
+            "label": "Drop Shelf",
+            "systemImage": "tray.and.arrow.down.fill",
+            "systemAction": "toggleDropShelf"
+          },
+          {
+            "label": "Undo",
+            "systemImage": "arrow.uturn.backward",
+            "systemAction": "undo"
+          },
+          {
+            "label": "Redo",
+            "systemImage": "arrow.uturn.forward",
+            "systemAction": "redo"
+          },
+          {
+            "label": "App Switcher",
+            "systemImage": "arrow.left.arrow.right",
+            "systemAction": "appSwitcher"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "systemAction": "cyclePreviousTab"
+          },
+          "button4_click": {
+            "systemAction": "cycleNextTab"
+          }
+        },
+        "scrollOverrides": {
+          "speed": 1.25,
+          "duration": 0.22,
+          "smoothScrollEnabled": true
+        }
+      }
     },
     {
       "id": "com.community.browser-supercharger",
@@ -73,7 +231,59 @@
       "icon": "safari.fill",
       "file": "plugins/com.community.browser-supercharger.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.browser-supercharger.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.browser-supercharger"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.browser-supercharger",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Back",
+            "systemImage": "chevron.left",
+            "shortcut": "\u2318["
+          },
+          {
+            "label": "Forward",
+            "systemImage": "chevron.right",
+            "shortcut": "\u2318]"
+          },
+          {
+            "label": "New Tab",
+            "systemImage": "plus",
+            "shortcut": "\u2318T"
+          },
+          {
+            "label": "Close Tab",
+            "systemImage": "xmark",
+            "shortcut": "\u2318W"
+          },
+          {
+            "label": "Reopen Tab",
+            "systemImage": "arrow.counterclockwise",
+            "shortcut": "\u21e7\u2318T"
+          },
+          {
+            "label": "Find in Page",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318F"
+          },
+          {
+            "label": "Reader Mode",
+            "systemImage": "doc.plaintext",
+            "shortcut": "\u21e7\u2318R"
+          },
+          {
+            "label": "Bookmark",
+            "systemImage": "star.fill",
+            "shortcut": "\u2318D"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "systemAction": "cyclePreviousTab"
+          },
+          "button4_click": {
+            "systemAction": "cycleNextTab"
+          }
+        }
+      }
     },
     {
       "id": "com.community.figma-pro",
@@ -91,7 +301,63 @@
       "icon": "paintbrush.fill",
       "file": "plugins/com.community.figma-pro.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.figma-pro.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.figma-pro"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.figma-pro",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Auto Layout",
+            "systemImage": "rectangle.split.2x1",
+            "shortcut": "\u21e7A"
+          },
+          {
+            "label": "Frame",
+            "systemImage": "square.dashed",
+            "shortcut": "\u2325\u2318G"
+          },
+          {
+            "label": "Group",
+            "systemImage": "folder",
+            "shortcut": "\u2318G"
+          },
+          {
+            "label": "Component",
+            "systemImage": "diamond",
+            "shortcut": "\u2325\u2318K"
+          },
+          {
+            "label": "Zoom to Fit",
+            "systemImage": "arrow.up.left.and.arrow.down.right",
+            "shortcut": "\u21e71"
+          },
+          {
+            "label": "Zoom 100%",
+            "systemImage": "1.circle",
+            "shortcut": "\u21e70"
+          },
+          {
+            "label": "Flatten",
+            "systemImage": "arrow.triangle.merge",
+            "shortcut": "\u2318E"
+          },
+          {
+            "label": "Hand Tool",
+            "systemImage": "hand.raised.fill",
+            "shortcut": "H"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u2318Z"
+          },
+          "button4_click": {
+            "shortcut": "\u21e7\u2318Z"
+          }
+        },
+        "scrollOverrides": {
+          "speed": 1.15,
+          "smoothScrollEnabled": true
+        }
+      }
     },
     {
       "id": "com.community.vscode-coder",
@@ -109,7 +375,59 @@
       "icon": "curlybraces",
       "file": "plugins/com.community.vscode-coder.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.vscode-coder.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.vscode-coder"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.vscode-coder",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Command Palette",
+            "systemImage": "command",
+            "shortcut": "\u21e7\u2318P"
+          },
+          {
+            "label": "Quick Open",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318P"
+          },
+          {
+            "label": "Terminal",
+            "systemImage": "terminal.fill",
+            "shortcut": "\u2303`"
+          },
+          {
+            "label": "Format Code",
+            "systemImage": "text.alignleft",
+            "shortcut": "\u21e7\u2325F"
+          },
+          {
+            "label": "Comment Line",
+            "systemImage": "text.quote",
+            "shortcut": "\u2318/"
+          },
+          {
+            "label": "Sidebar",
+            "systemImage": "sidebar.left",
+            "shortcut": "\u2318B"
+          },
+          {
+            "label": "Git Changes",
+            "systemImage": "arrow.triangle.branch",
+            "shortcut": "\u2303\u21e7G"
+          },
+          {
+            "label": "Multi-Cursor",
+            "systemImage": "cursorarrow.motionlines",
+            "shortcut": "\u2325\u2318Up Arrow"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u2318["
+          },
+          "button4_click": {
+            "shortcut": "\u2318]"
+          }
+        }
+      }
     },
     {
       "id": "com.community.finalcut-deck",
@@ -127,7 +445,51 @@
       "icon": "film.fill",
       "file": "plugins/com.community.finalcut-deck.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.finalcut-deck.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.finalcut-deck"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.finalcut-deck",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Blade Cut",
+            "systemImage": "scissors",
+            "shortcut": "\u2318B"
+          },
+          {
+            "label": "Select Tool",
+            "systemImage": "cursorarrow",
+            "shortcut": "A"
+          },
+          {
+            "label": "Trim Tool",
+            "systemImage": "arrow.left.and.right",
+            "shortcut": "T"
+          },
+          {
+            "label": "Ripple Delete",
+            "systemImage": "trash.fill",
+            "shortcut": "\u2325\u232b"
+          },
+          {
+            "label": "Zoom In",
+            "systemImage": "plus.magnifyingglass",
+            "shortcut": "\u2318="
+          },
+          {
+            "label": "Zoom Out",
+            "systemImage": "minus.magnifyingglass",
+            "shortcut": "\u2318-"
+          },
+          {
+            "label": "Play / Stop",
+            "systemImage": "playpause.fill",
+            "shortcut": "Space"
+          },
+          {
+            "label": "Snap Toggle",
+            "systemImage": "magnet",
+            "shortcut": "N"
+          }
+        ]
+      }
     },
     {
       "id": "com.community.blender-orbit",
@@ -145,7 +507,51 @@
       "icon": "cube.fill",
       "file": "plugins/com.community.blender-orbit.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.blender-orbit.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.blender-orbit"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.blender-orbit",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Front View",
+            "systemImage": "square",
+            "shortcut": "Numpad 1"
+          },
+          {
+            "label": "Right View",
+            "systemImage": "rectangle.righthalf.filled",
+            "shortcut": "Numpad 3"
+          },
+          {
+            "label": "Top View",
+            "systemImage": "rectangle.tophalf.filled",
+            "shortcut": "Numpad 7"
+          },
+          {
+            "label": "Camera View",
+            "systemImage": "camera.fill",
+            "shortcut": "Numpad 0"
+          },
+          {
+            "label": "Wireframe",
+            "systemImage": "grid",
+            "shortcut": "Z"
+          },
+          {
+            "label": "Rendered View",
+            "systemImage": "sparkles",
+            "shortcut": "\u21e7Z"
+          },
+          {
+            "label": "Focus Active",
+            "systemImage": "scope",
+            "shortcut": "Numpad ."
+          },
+          {
+            "label": "Search Tools",
+            "systemImage": "magnifyingglass",
+            "shortcut": "F3"
+          }
+        ]
+      }
     },
     {
       "id": "com.community.antigravity-flow",
@@ -163,7 +569,64 @@
       "icon": "sparkles.rectangle.stack",
       "file": "plugins/com.community.antigravity-flow.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.antigravity-flow.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.antigravity-flow"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.antigravity-flow",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Command Palette",
+            "systemImage": "command",
+            "shortcut": "\u21e7\u2318P"
+          },
+          {
+            "label": "Agent Prompt",
+            "systemImage": "sparkles",
+            "shortcut": "\u2318K"
+          },
+          {
+            "label": "Terminal",
+            "systemImage": "terminal.fill",
+            "shortcut": "\u2303`"
+          },
+          {
+            "label": "Format Code",
+            "systemImage": "text.alignleft",
+            "shortcut": "\u21e7\u2325F"
+          },
+          {
+            "label": "Git Changes",
+            "systemImage": "arrow.triangle.branch",
+            "shortcut": "\u2303\u21e7G"
+          },
+          {
+            "label": "File Explorer",
+            "systemImage": "sidebar.left",
+            "shortcut": "\u2318B"
+          },
+          {
+            "label": "Run Task",
+            "systemImage": "play.fill",
+            "shortcut": "\u21e7\u2318B"
+          },
+          {
+            "label": "Quick Open",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318P"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u2318Z"
+          },
+          "button4_click": {
+            "shortcut": "\u21e7\u2318Z"
+          }
+        },
+        "scrollOverrides": {
+          "speed": 1.15,
+          "duration": 0.18,
+          "smoothScrollEnabled": true
+        }
+      }
     },
     {
       "id": "com.community.ms-edge-deck",
@@ -181,7 +644,64 @@
       "icon": "globe.badge.chevron.backward",
       "file": "plugins/com.community.ms-edge-deck.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.ms-edge-deck.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-edge-deck"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-edge-deck",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Back",
+            "systemImage": "chevron.left",
+            "shortcut": "\u2318["
+          },
+          {
+            "label": "Forward",
+            "systemImage": "chevron.right",
+            "shortcut": "\u2318]"
+          },
+          {
+            "label": "Copilot AI",
+            "systemImage": "sparkles.tv",
+            "shortcut": "\u21e7\u2318."
+          },
+          {
+            "label": "Vertical Tabs",
+            "systemImage": "sidebar.left",
+            "shortcut": "\u21e7\u2318,"
+          },
+          {
+            "label": "Reader Mode",
+            "systemImage": "doc.plaintext",
+            "shortcut": "\u21e7\u2318R"
+          },
+          {
+            "label": "DevTools",
+            "systemImage": "hammer.fill",
+            "shortcut": "\u2325\u2318I"
+          },
+          {
+            "label": "InPrivate Window",
+            "systemImage": "eye.slash.fill",
+            "shortcut": "\u21e7\u2318N"
+          },
+          {
+            "label": "Reopen Tab",
+            "systemImage": "arrow.counterclockwise",
+            "shortcut": "\u21e7\u2318T"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "systemAction": "cyclePreviousTab"
+          },
+          "button4_click": {
+            "systemAction": "cycleNextTab"
+          }
+        },
+        "scrollOverrides": {
+          "speed": 1.2,
+          "duration": 0.2,
+          "smoothScrollEnabled": true
+        }
+      }
     },
     {
       "id": "com.community.ms-teams-meeting",
@@ -199,7 +719,59 @@
       "icon": "person.3.sequence.fill",
       "file": "plugins/com.community.ms-teams-meeting.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.ms-teams-meeting.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-teams-meeting"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-teams-meeting",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Mute / Unmute",
+            "systemImage": "mic.slash.fill",
+            "shortcut": "\u21e7\u2318M"
+          },
+          {
+            "label": "Camera On/Off",
+            "systemImage": "video.fill",
+            "shortcut": "\u21e7\u2318O"
+          },
+          {
+            "label": "Raise Hand",
+            "systemImage": "hand.raised.fill",
+            "shortcut": "\u21e7\u2318K"
+          },
+          {
+            "label": "Share Screen",
+            "systemImage": "rectangle.on.rectangle",
+            "shortcut": "\u21e7\u2318E"
+          },
+          {
+            "label": "Search Chats",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318E"
+          },
+          {
+            "label": "Filter Unread",
+            "systemImage": "line.3.horizontal.decrease.circle",
+            "shortcut": "\u21e7\u2318U"
+          },
+          {
+            "label": "Next Chat",
+            "systemImage": "bubble.left.and.bubble.right.fill",
+            "shortcut": "\u2325Down Arrow"
+          },
+          {
+            "label": "Previous Chat",
+            "systemImage": "bubble.left",
+            "shortcut": "\u2325Up Arrow"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u21e7\u2318M"
+          },
+          "button4_click": {
+            "shortcut": "\u21e7\u2318K"
+          }
+        }
+      }
     },
     {
       "id": "com.community.whatsapp-connect",
@@ -217,7 +789,59 @@
       "icon": "message.badge.filled.fill",
       "file": "plugins/com.community.whatsapp-connect.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.whatsapp-connect.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.whatsapp-connect"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.whatsapp-connect",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Search Chats",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318F"
+          },
+          {
+            "label": "New Chat",
+            "systemImage": "square.and.pencil",
+            "shortcut": "\u2318N"
+          },
+          {
+            "label": "Archive Chat",
+            "systemImage": "archivebox.fill",
+            "shortcut": "\u2318E"
+          },
+          {
+            "label": "Mute Chat",
+            "systemImage": "bell.slash.fill",
+            "shortcut": "\u21e7\u2318M"
+          },
+          {
+            "label": "Attach Media",
+            "systemImage": "paperclip",
+            "shortcut": "\u2318U"
+          },
+          {
+            "label": "Next Chat",
+            "systemImage": "chevron.down",
+            "shortcut": "\u2303Tab"
+          },
+          {
+            "label": "Previous Chat",
+            "systemImage": "chevron.up",
+            "shortcut": "\u2303\u21e7Tab"
+          },
+          {
+            "label": "Close Chat",
+            "systemImage": "xmark",
+            "shortcut": "\u2318W"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u2303\u21e7Tab"
+          },
+          "button4_click": {
+            "shortcut": "\u2303Tab"
+          }
+        }
+      }
     },
     {
       "id": "com.community.slack-workspace",
@@ -235,7 +859,59 @@
       "icon": "number.square.fill",
       "file": "plugins/com.community.slack-workspace.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.slack-workspace.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.slack-workspace"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.slack-workspace",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Quick Switcher",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318K"
+          },
+          {
+            "label": "Toggle Huddle",
+            "systemImage": "headphones",
+            "shortcut": "\u21e7\u2318H"
+          },
+          {
+            "label": "Mark All Read",
+            "systemImage": "checkmark.circle",
+            "shortcut": "\u21e7Escape"
+          },
+          {
+            "label": "Threads",
+            "systemImage": "bubble.left.and.bubble.right",
+            "shortcut": "\u21e7\u2318T"
+          },
+          {
+            "label": "Next Unread",
+            "systemImage": "arrow.down.circle",
+            "shortcut": "\u2325\u21e7Down Arrow"
+          },
+          {
+            "label": "Prev Unread",
+            "systemImage": "arrow.up.circle",
+            "shortcut": "\u2325\u21e7Up Arrow"
+          },
+          {
+            "label": "New Message",
+            "systemImage": "square.and.pencil",
+            "shortcut": "\u2318N"
+          },
+          {
+            "label": "Activity",
+            "systemImage": "bell.fill",
+            "shortcut": "\u21e7\u2318M"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u2325Up Arrow"
+          },
+          "button4_click": {
+            "shortcut": "\u2325Down Arrow"
+          }
+        }
+      }
     },
     {
       "id": "com.community.notion-workbench",
@@ -253,7 +929,64 @@
       "icon": "doc.text.fill",
       "file": "plugins/com.community.notion-workbench.apexplugin",
       "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.notion-workbench.apexplugin",
-      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.notion-workbench"
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.notion-workbench",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Quick Find",
+            "systemImage": "magnifyingglass",
+            "shortcut": "\u2318P"
+          },
+          {
+            "label": "New Page",
+            "systemImage": "plus.square",
+            "shortcut": "\u2318N"
+          },
+          {
+            "label": "Back",
+            "systemImage": "chevron.left",
+            "shortcut": "\u2318["
+          },
+          {
+            "label": "Forward",
+            "systemImage": "chevron.right",
+            "shortcut": "\u2318]"
+          },
+          {
+            "label": "To-do Box",
+            "systemImage": "checkmark.square",
+            "shortcut": "\u2325\u23184"
+          },
+          {
+            "label": "Toggle List",
+            "systemImage": "list.bullet.indent",
+            "shortcut": "\u2325\u23187"
+          },
+          {
+            "label": "Duplicate",
+            "systemImage": "doc.on.doc",
+            "shortcut": "\u2318D"
+          },
+          {
+            "label": "Comment",
+            "systemImage": "bubble.right",
+            "shortcut": "\u21e7\u2318M"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "\u2318["
+          },
+          "button4_click": {
+            "shortcut": "\u2318]"
+          }
+        },
+        "scrollOverrides": {
+          "speed": 1.15,
+          "duration": 0.18,
+          "smoothScrollEnabled": true
+        }
+      }
     }
   ]
 }
