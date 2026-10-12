@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T15:59:02.482Z",
+  "lastUpdated": "2026-10-12T16:08:55.129Z",
   "totalPlugins": 21,
   "plugins": [
     {
@@ -563,7 +563,7 @@
     },
     {
       "id": "com.community.antigravity-flow",
-      "name": "Antigravity AI IDE Velocity",
+      "name": "Antigravity Flow CLI",
       "author": {
         "name": "AgyTeam",
         "url": "https://apexmouse.tech/plugins"
