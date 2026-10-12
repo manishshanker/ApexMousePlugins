@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.ms-edge-deck",
+  "name": "Microsoft Edge SuperDeck",
+  "author": {
+    "name": "EdgePower",
+    "url": "https://apexmouse.tech/community"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.microsoft.edgemac",
+  "targetAppName": "Microsoft Edge",
+  "category": "productivity",
+  "description": "Copilot AI sidebar, vertical tabs, immersive reader, devtools, and instant tab cycle for Microsoft Edge.",
+  "icon": "globe.badge.chevron.backward",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Back",
+        "systemImage": "chevron.left",
+        "shortcut": "⌘["
+      },
+      {
+        "label": "Forward",
+        "systemImage": "chevron.right",
+        "shortcut": "⌘]"
+      },
+      {
+        "label": "Copilot AI",
+        "systemImage": "sparkles.tv",
+        "shortcut": "⇧⌘."
+      },
+      {
+        "label": "Vertical Tabs",
+        "systemImage": "sidebar.left",
+        "shortcut": "⇧⌘,"
+      },
+      {
+        "label": "Reader Mode",
+        "systemImage": "doc.plaintext",
+        "shortcut": "⇧⌘R"
+      },
+      {
+        "label": "DevTools",
+        "systemImage": "hammer.fill",
+        "shortcut": "⌥⌘I"
+      },
+      {
+        "label": "InPrivate Window",
+        "systemImage": "eye.slash.fill",
+        "shortcut": "⇧⌘N"
+      },
+      {
+        "label": "Reopen Tab",
+        "systemImage": "arrow.counterclockwise",
+        "shortcut": "⇧⌘T"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "systemAction": "cyclePreviousTab"
+      },
+      "button4_click": {
+        "systemAction": "cycleNextTab"
+      }
+    },
+    "scrollOverrides": {
+      "speed": 1.2,
+      "duration": 0.2,
+      "smoothScrollEnabled": true
+    }
+  }
+}

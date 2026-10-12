@@ -1,0 +1,259 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-10-12T11:51:00.000Z",
+  "totalPlugins": 14,
+  "plugins": [
+    {
+      "id": "com.community.macos-power-tools",
+      "name": "macOS System Power Tools",
+      "author": {
+        "name": "MacPowerTools",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "*",
+      "targetAppName": "Global (All Apps)",
+      "isGlobal": true,
+      "category": "productivity",
+      "description": "Universal 8-way dial for Mission Control, App Exposé, Screenshot Area, Show Desktop, Mute, and Drop Shelf.",
+      "icon": "sparkles",
+      "file": "plugins/com.community.macos-power-tools.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.macos-power-tools.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.macos-power-tools"
+    },
+    {
+      "id": "com.community.window-manager-dial",
+      "name": "Window Snapping & Space Dial",
+      "author": {
+        "name": "WindowForge",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "*",
+      "targetAppName": "Global (All Apps)",
+      "isGlobal": true,
+      "category": "productivity",
+      "description": "8-way directional radial dial to snap active windows to halves, corners, maximize, or throw between displays.",
+      "icon": "rectangle.split.2x1.fill",
+      "file": "plugins/com.community.window-manager-dial.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.window-manager-dial.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.window-manager-dial"
+    },
+    {
+      "id": "com.community.mx-master-tuning",
+      "name": "Logitech MX Master 3S Tuning",
+      "author": {
+        "name": "ErgoDesk",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "*",
+      "targetAppName": "Global (All Apps)",
+      "isGlobal": true,
+      "category": "hardware",
+      "description": "120Hz smooth inertia coasting, thumb tab cycler, gesture stash, and 1-click Mission Control across all Mac apps.",
+      "icon": "computermouse.fill",
+      "file": "plugins/com.community.mx-master-tuning.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.mx-master-tuning.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.mx-master-tuning"
+    },
+    {
+      "id": "com.community.browser-supercharger",
+      "name": "Universal Browser Power Deck",
+      "author": {
+        "name": "WebFlows",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "*",
+      "targetAppName": "Global (All Apps)",
+      "isGlobal": true,
+      "category": "productivity",
+      "description": "Universal navigation dial, instant tab switcher, reader mode, and history search across Safari, Chrome, Arc, and Brave.",
+      "icon": "safari.fill",
+      "file": "plugins/com.community.browser-supercharger.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.browser-supercharger.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.browser-supercharger"
+    },
+    {
+      "id": "com.community.figma-pro",
+      "name": "Figma SuperDial & Canvas",
+      "author": {
+        "name": "DesignCraft",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.figma.Desktop",
+      "targetAppName": "Figma",
+      "isGlobal": false,
+      "category": "design",
+      "description": "8-way auto-layout, component creation, frame selection, and zoom dials.",
+      "icon": "paintbrush.fill",
+      "file": "plugins/com.community.figma-pro.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.figma-pro.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.figma-pro"
+    },
+    {
+      "id": "com.community.vscode-coder",
+      "name": "VS Code & Cursor Velocity",
+      "author": {
+        "name": "DevTools",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.microsoft.VSCode",
+      "targetAppName": "Visual Studio Code",
+      "isGlobal": false,
+      "category": "coding",
+      "description": "Terminal toggle, format document, command palette, and line commenting.",
+      "icon": "curlybraces",
+      "file": "plugins/com.community.vscode-coder.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.vscode-coder.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.vscode-coder"
+    },
+    {
+      "id": "com.community.finalcut-deck",
+      "name": "Final Cut Precision Deck",
+      "author": {
+        "name": "CinemaCut",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.apple.FinalCut",
+      "targetAppName": "Final Cut Pro",
+      "isGlobal": false,
+      "category": "media",
+      "description": "Blade cut, ripple delete, playhead navigation, and timeline zooming.",
+      "icon": "film.fill",
+      "file": "plugins/com.community.finalcut-deck.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.finalcut-deck.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.finalcut-deck"
+    },
+    {
+      "id": "com.community.blender-orbit",
+      "name": "Blender 4.x Viewport Orbit",
+      "author": {
+        "name": "PolyModeler",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "org.blenderfoundation.blender",
+      "targetAppName": "Blender",
+      "isGlobal": false,
+      "category": "design",
+      "description": "Shading modes, front/top/side orthographic cameras, and wireframe toggle.",
+      "icon": "cube.fill",
+      "file": "plugins/com.community.blender-orbit.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.blender-orbit.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.blender-orbit"
+    },
+    {
+      "id": "com.community.antigravity-flow",
+      "name": "Antigravity AI IDE Velocity",
+      "author": {
+        "name": "AgyTeam",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.google.antigravity",
+      "targetAppName": "Antigravity",
+      "isGlobal": false,
+      "category": "coding",
+      "description": "AI pair programming speed-dial: Terminal toggle, Agent Focus/Prompt, Command Palette, Code Format, File Tree, Git Diff, and Task Run.",
+      "icon": "sparkles.rectangle.stack",
+      "file": "plugins/com.community.antigravity-flow.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.antigravity-flow.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.antigravity-flow"
+    },
+    {
+      "id": "com.community.ms-edge-deck",
+      "name": "Microsoft Edge SuperDeck",
+      "author": {
+        "name": "EdgePower",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.microsoft.edgemac",
+      "targetAppName": "Microsoft Edge",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Copilot AI sidebar, vertical tabs, immersive reader, devtools, and instant tab cycle for Microsoft Edge.",
+      "icon": "globe.badge.chevron.backward",
+      "file": "plugins/com.community.ms-edge-deck.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.ms-edge-deck.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-edge-deck"
+    },
+    {
+      "id": "com.community.ms-teams-meeting",
+      "name": "Microsoft Teams Meeting Deck",
+      "author": {
+        "name": "CollabDesk",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.microsoft.teams2",
+      "targetAppName": "Microsoft Teams",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Instant meeting controls: 1-click Mic Mute, Camera toggle, Raise Hand, Screen Share, and Chat navigator.",
+      "icon": "person.3.sequence.fill",
+      "file": "plugins/com.community.ms-teams-meeting.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.ms-teams-meeting.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-teams-meeting"
+    },
+    {
+      "id": "com.community.whatsapp-connect",
+      "name": "WhatsApp Quick Dial",
+      "author": {
+        "name": "ChatFlow",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "net.whatsapp.WhatsApp",
+      "targetAppName": "WhatsApp",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Rapid messaging speed-dial: Search chats, New chat, Archive chat, Mute notifications, and Attach media.",
+      "icon": "message.badge.filled.fill",
+      "file": "plugins/com.community.whatsapp-connect.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.whatsapp-connect.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.whatsapp-connect"
+    },
+    {
+      "id": "com.community.slack-workspace",
+      "name": "Slack Workspace Velocity",
+      "author": {
+        "name": "WorkSync",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.tinyspeck.slackmacgap",
+      "targetAppName": "Slack",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Workplace communication dial: Quick Switcher, Huddle toggle, Mark as Read, Threads, and Unread jumping.",
+      "icon": "number.square.fill",
+      "file": "plugins/com.community.slack-workspace.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.slack-workspace.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.slack-workspace"
+    },
+    {
+      "id": "com.community.notion-workbench",
+      "name": "Notion Knowledge Workbench",
+      "author": {
+        "name": "ThoughtCraft",
+        "url": "https://apexmouse.tech/community"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "notion.id",
+      "targetAppName": "Notion",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Quick search, New page, Back/Forward page traversal, Toggle lists, and To-do checklists.",
+      "icon": "doc.text.fill",
+      "file": "plugins/com.community.notion-workbench.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.notion-workbench.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.notion-workbench"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.macos-power-tools",
+  "name": "macOS System Power Tools",
+  "author": {
+    "name": "MacPowerTools",
+    "url": "https://apexmouse.tech/community"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "*",
+  "targetAppName": "Global (All Apps)",
+  "category": "productivity",
+  "description": "Universal 8-way dial for Mission Control, App Exposé, Screenshot Area, Show Desktop, Mute, and Drop Shelf.",
+  "icon": "sparkles",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Mission Control",
+        "systemImage": "square.2.layers.3d.top.filled",
+        "systemAction": "missionControl"
+      },
+      {
+        "label": "App Exposé",
+        "systemImage": "macwindow.on.rectangle",
+        "systemAction": "appExpose"
+      },
+      {
+        "label": "Screenshot",
+        "systemImage": "camera.viewfinder",
+        "shortcut": "⇧⌘4"
+      },
+      {
+        "label": "Show Desktop",
+        "systemImage": "menubar.dock.rectangle",
+        "systemAction": "showDesktop"
+      },
+      {
+        "label": "Spotlight",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⌘Space"
+      },
+      {
+        "label": "Mute Audio",
+        "systemImage": "speaker.slash.fill",
+        "systemAction": "mute"
+      },
+      {
+        "label": "Drop Shelf",
+        "systemImage": "tray.and.arrow.down.fill",
+        "systemAction": "toggleDropShelf"
+      },
+      {
+        "label": "Smart Zoom",
+        "systemImage": "plus.magnifyingglass",
+        "systemAction": "smartZoom"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "systemAction": "missionControl"
+      },
+      "button4_click": {
+        "systemAction": "showRadialMenu"
+      }
+    }
+  }
+}

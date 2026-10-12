@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.finalcut-deck",
+  "name": "Final Cut Precision Deck",
+  "author": {
+    "name": "CinemaCut",
+    "url": "https://apexmouse.tech/community"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.apple.FinalCut",
+  "targetAppName": "Final Cut Pro",
+  "category": "media",
+  "description": "Blade cut, ripple delete, playhead navigation, and timeline zooming.",
+  "icon": "film.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Blade Cut",
+        "systemImage": "scissors",
+        "shortcut": "⌘B"
+      },
+      {
+        "label": "Select Tool",
+        "systemImage": "cursorarrow",
+        "shortcut": "A"
+      },
+      {
+        "label": "Trim Tool",
+        "systemImage": "arrow.left.and.right",
+        "shortcut": "T"
+      },
+      {
+        "label": "Ripple Delete",
+        "systemImage": "trash.fill",
+        "shortcut": "⌥⌫"
+      },
+      {
+        "label": "Zoom In",
+        "systemImage": "plus.magnifyingglass",
+        "shortcut": "⌘="
+      },
+      {
+        "label": "Zoom Out",
+        "systemImage": "minus.magnifyingglass",
+        "shortcut": "⌘-"
+      },
+      {
+        "label": "Play / Stop",
+        "systemImage": "playpause.fill",
+        "shortcut": "Space"
+      },
+      {
+        "label": "Snap Toggle",
+        "systemImage": "magnet",
+        "shortcut": "N"
+      }
+    ]
+  }
+}

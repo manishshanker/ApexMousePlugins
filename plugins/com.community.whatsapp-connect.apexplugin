@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.whatsapp-connect",
+  "name": "WhatsApp Quick Dial",
+  "author": {
+    "name": "ChatFlow",
+    "url": "https://apexmouse.tech/community"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "net.whatsapp.WhatsApp",
+  "targetAppName": "WhatsApp",
+  "category": "productivity",
+  "description": "Rapid messaging speed-dial: Search chats, New chat, Archive chat, Mute notifications, and Attach media.",
+  "icon": "message.badge.filled.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Search Chats",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⌘F"
+      },
+      {
+        "label": "New Chat",
+        "systemImage": "square.and.pencil",
+        "shortcut": "⌘N"
+      },
+      {
+        "label": "Archive Chat",
+        "systemImage": "archivebox.fill",
+        "shortcut": "⌘E"
+      },
+      {
+        "label": "Mute Chat",
+        "systemImage": "bell.slash.fill",
+        "shortcut": "⇧⌘M"
+      },
+      {
+        "label": "Attach Media",
+        "systemImage": "paperclip",
+        "shortcut": "⌘U"
+      },
+      {
+        "label": "Next Chat",
+        "systemImage": "chevron.down",
+        "shortcut": "⌃Tab"
+      },
+      {
+        "label": "Previous Chat",
+        "systemImage": "chevron.up",
+        "shortcut": "⌃⇧Tab"
+      },
+      {
+        "label": "Close Chat",
+        "systemImage": "xmark",
+        "shortcut": "⌘W"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "⌃⇧Tab"
+      },
+      "button4_click": {
+        "shortcut": "⌃Tab"
+      }
+    }
+  }
+}
