@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "id": "com.community.antigravity-flow",
-  "name": "Antigravity AI IDE Velocity",
+  "name": "Antigravity Flow CLI",
   "author": {
     "name": "AgyTeam",
     "url": "https://apexmouse.tech/plugins"
