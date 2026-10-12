@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.music-media-deck",
+  "name": "Spotify & Apple Music Studio Deck",
+  "author": {
+    "name": "SoundWave",
+    "url": "https://apexmouse.tech/plugins"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.spotify.client",
+  "targetAppName": "Spotify",
+  "category": "media",
+  "description": "Radial playback dials, next/previous tracks, library search, mute, and 1-click favorite track controls.",
+  "icon": "music.note.list",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Play / Pause",
+        "systemImage": "playpause.fill",
+        "shortcut": "Space"
+      },
+      {
+        "label": "Next Track",
+        "systemImage": "forward.fill",
+        "shortcut": "⌘Right Arrow"
+      },
+      {
+        "label": "Previous Track",
+        "systemImage": "backward.fill",
+        "shortcut": "⌘Left Arrow"
+      },
+      {
+        "label": "Volume Up",
+        "systemImage": "speaker.wave.3.fill",
+        "shortcut": "⌘Up Arrow"
+      },
+      {
+        "label": "Volume Down",
+        "systemImage": "speaker.wave.1.fill",
+        "shortcut": "⌘Down Arrow"
+      },
+      {
+        "label": "Like Track",
+        "systemImage": "heart.fill",
+        "shortcut": "⌥⇧B"
+      },
+      {
+        "label": "Search",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⌘L"
+      },
+      {
+        "label": "Shuffle",
+        "systemImage": "shuffle",
+        "shortcut": "⌘S"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "Space"
+      },
+      "button4_click": {
+        "shortcut": "⌘Right Arrow"
+      }
+    }
+  },
+  "emoji": "🎵"
+}

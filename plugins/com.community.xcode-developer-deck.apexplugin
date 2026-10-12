@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.xcode-developer-deck",
+  "name": "Xcode Swift Developer Deck",
+  "author": {
+    "name": "CupertinoDev",
+    "url": "https://apexmouse.tech/plugins"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.apple.dt.Xcode",
+  "targetAppName": "Xcode",
+  "category": "coding",
+  "description": "1-click Build & Run, Clean Build, SwiftUI Canvas Preview toggle, Open Quickly, and Jump to Definition.",
+  "icon": "hammer.circle.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Build & Run",
+        "systemImage": "play.fill",
+        "shortcut": "⌘R"
+      },
+      {
+        "label": "Clean Build",
+        "systemImage": "trash.fill",
+        "shortcut": "⇧⌘K"
+      },
+      {
+        "label": "Open Quickly",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⇧⌘O"
+      },
+      {
+        "label": "Canvas Preview",
+        "systemImage": "macwindow.on.rectangle",
+        "shortcut": "⌥⌘↩"
+      },
+      {
+        "label": "Jump Definition",
+        "systemImage": "arrow.right.circle.fill",
+        "shortcut": "⌃⌘J"
+      },
+      {
+        "label": "Debug Area",
+        "systemImage": "ant.fill",
+        "shortcut": "⇧⌘Y"
+      },
+      {
+        "label": "Navigator",
+        "systemImage": "sidebar.left",
+        "shortcut": "⌘0"
+      },
+      {
+        "label": "Stop Build",
+        "systemImage": "stop.fill",
+        "shortcut": "⌘."
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "⌃⌘J"
+      },
+      "button4_click": {
+        "shortcut": "⌘R"
+      }
+    }
+  },
+  "emoji": "🛠️"
+}

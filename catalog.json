@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T11:35:00.743Z",
-  "totalPlugins": 14,
+  "lastUpdated": "2026-10-12T12:34:37.079Z",
+  "totalPlugins": 20,
   "plugins": [
     {
       "id": "com.community.macos-power-tools",
@@ -1001,6 +1001,432 @@
         }
       },
       "emoji": "📝"
+    },
+    {
+      "id": "com.community.ms-outlook-triage",
+      "name": "Microsoft Outlook Power Triage",
+      "author": {
+        "name": "OfficeFlow",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.microsoft.Outlook",
+      "targetAppName": "Microsoft Outlook",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Rapid inbox triage, 1-click Reply All, Archive, Flag Task, New Event, and Calendar view switching for Outlook Mac.",
+      "icon": "envelope.badge.fill",
+      "file": "plugins/com.community.ms-outlook-triage.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.ms-outlook-triage.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.ms-outlook-triage",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "New Email",
+            "systemImage": "square.and.pencil",
+            "shortcut": "⌘N"
+          },
+          {
+            "label": "Reply All",
+            "systemImage": "arrowshape.turn.up.left.2.fill",
+            "shortcut": "⇧⌘R"
+          },
+          {
+            "label": "Forward",
+            "systemImage": "arrowshape.turn.up.right.fill",
+            "shortcut": "⌘J"
+          },
+          {
+            "label": "Archive",
+            "systemImage": "archivebox.fill",
+            "shortcut": "⌃E"
+          },
+          {
+            "label": "Flag Task",
+            "systemImage": "flag.fill",
+            "shortcut": "'"
+          },
+          {
+            "label": "Mark Unread",
+            "systemImage": "envelope.fill",
+            "shortcut": "⇧⌘U"
+          },
+          {
+            "label": "Calendar View",
+            "systemImage": "calendar",
+            "shortcut": "⌘2"
+          },
+          {
+            "label": "Search Mailbox",
+            "systemImage": "magnifyingglass",
+            "shortcut": "⌥⌘F"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "⌃E"
+          },
+          "button4_click": {
+            "shortcut": "⇧⌘R"
+          }
+        }
+      },
+      "emoji": "📧"
+    },
+    {
+      "id": "com.community.macos-finder-pro",
+      "name": "macOS Finder & File Manager Deck",
+      "author": {
+        "name": "FileCraft",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.apple.finder",
+      "targetAppName": "Finder",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Quick Look previews, batch duplication, smart folder creation, Show Hidden Files, and instant Drop Shelf staging.",
+      "icon": "folder.fill",
+      "file": "plugins/com.community.macos-finder-pro.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.macos-finder-pro.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.macos-finder-pro",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Quick Look",
+            "systemImage": "eye.fill",
+            "shortcut": "Space"
+          },
+          {
+            "label": "New Folder",
+            "systemImage": "folder.badge.plus",
+            "shortcut": "⇧⌘N"
+          },
+          {
+            "label": "Move to Trash",
+            "systemImage": "trash.fill",
+            "shortcut": "⌘⌫"
+          },
+          {
+            "label": "Duplicate",
+            "systemImage": "doc.on.doc.fill",
+            "shortcut": "⌘D"
+          },
+          {
+            "label": "Get Info",
+            "systemImage": "info.circle.fill",
+            "shortcut": "⌘I"
+          },
+          {
+            "label": "Drop Shelf",
+            "systemImage": "tray.and.arrow.down.fill",
+            "systemAction": "toggleDropShelf"
+          },
+          {
+            "label": "Hidden Files",
+            "systemImage": "eye.slash.fill",
+            "shortcut": "⇧⌘."
+          },
+          {
+            "label": "Columns View",
+            "systemImage": "rectangle.split.3x1.fill",
+            "shortcut": "⌘3"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "Space"
+          },
+          "button4_click": {
+            "systemAction": "toggleDropShelf"
+          }
+        }
+      },
+      "emoji": "📁"
+    },
+    {
+      "id": "com.community.safari-navigator",
+      "name": "Safari Precision Navigator",
+      "author": {
+        "name": "WebKitPilot",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.apple.Safari",
+      "targetAppName": "Safari",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Distraction-free Reader Mode, Web Inspector, instant Tab Cycler, Private Window, and Web Clipping shortcuts.",
+      "icon": "safari.fill",
+      "file": "plugins/com.community.safari-navigator.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.safari-navigator.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.safari-navigator",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Back",
+            "systemImage": "chevron.left",
+            "shortcut": "⌘["
+          },
+          {
+            "label": "Forward",
+            "systemImage": "chevron.right",
+            "shortcut": "⌘]"
+          },
+          {
+            "label": "Reader Mode",
+            "systemImage": "doc.plaintext.fill",
+            "shortcut": "⇧⌘R"
+          },
+          {
+            "label": "Web Inspector",
+            "systemImage": "hammer.fill",
+            "shortcut": "⌥⌘I"
+          },
+          {
+            "label": "New Tab",
+            "systemImage": "plus",
+            "shortcut": "⌘T"
+          },
+          {
+            "label": "Close Tab",
+            "systemImage": "xmark",
+            "shortcut": "⌘W"
+          },
+          {
+            "label": "Reopen Tab",
+            "systemImage": "arrow.counterclockwise",
+            "shortcut": "⇧⌘T"
+          },
+          {
+            "label": "Bookmark",
+            "systemImage": "star.fill",
+            "shortcut": "⌘D"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "systemAction": "cyclePreviousTab"
+          },
+          "button4_click": {
+            "systemAction": "cycleNextTab"
+          }
+        }
+      },
+      "emoji": "🧭"
+    },
+    {
+      "id": "com.community.music-media-deck",
+      "name": "Spotify & Apple Music Studio Deck",
+      "author": {
+        "name": "SoundWave",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.spotify.client",
+      "targetAppName": "Spotify",
+      "isGlobal": false,
+      "category": "media",
+      "description": "Radial playback dials, next/previous tracks, library search, mute, and 1-click favorite track controls.",
+      "icon": "music.note.list",
+      "file": "plugins/com.community.music-media-deck.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.music-media-deck.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.music-media-deck",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Play / Pause",
+            "systemImage": "playpause.fill",
+            "shortcut": "Space"
+          },
+          {
+            "label": "Next Track",
+            "systemImage": "forward.fill",
+            "shortcut": "⌘Right Arrow"
+          },
+          {
+            "label": "Previous Track",
+            "systemImage": "backward.fill",
+            "shortcut": "⌘Left Arrow"
+          },
+          {
+            "label": "Volume Up",
+            "systemImage": "speaker.wave.3.fill",
+            "shortcut": "⌘Up Arrow"
+          },
+          {
+            "label": "Volume Down",
+            "systemImage": "speaker.wave.1.fill",
+            "shortcut": "⌘Down Arrow"
+          },
+          {
+            "label": "Like Track",
+            "systemImage": "heart.fill",
+            "shortcut": "⌥⇧B"
+          },
+          {
+            "label": "Search",
+            "systemImage": "magnifyingglass",
+            "shortcut": "⌘L"
+          },
+          {
+            "label": "Shuffle",
+            "systemImage": "shuffle",
+            "shortcut": "⌘S"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "Space"
+          },
+          "button4_click": {
+            "shortcut": "⌘Right Arrow"
+          }
+        }
+      },
+      "emoji": "🎵"
+    },
+    {
+      "id": "com.community.apple-notes-flow",
+      "name": "Apple Notes Quick Workbench",
+      "author": {
+        "name": "PaperlessMac",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.apple.Notes",
+      "targetAppName": "Apple Notes",
+      "isGlobal": false,
+      "category": "productivity",
+      "description": "Instant checklist generation, title formatting, search, attachment preview, and floating note creation.",
+      "icon": "note.text",
+      "file": "plugins/com.community.apple-notes-flow.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.apple-notes-flow.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.apple-notes-flow",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "New Note",
+            "systemImage": "square.and.pencil",
+            "shortcut": "⌘N"
+          },
+          {
+            "label": "Checklist",
+            "systemImage": "checklist",
+            "shortcut": "⇧⌘L"
+          },
+          {
+            "label": "Title Format",
+            "systemImage": "textformat.size",
+            "shortcut": "⇧⌘T"
+          },
+          {
+            "label": "Search Notes",
+            "systemImage": "magnifyingglass",
+            "shortcut": "⌥⌘F"
+          },
+          {
+            "label": "Pin Note",
+            "systemImage": "pin.fill",
+            "shortcut": "⌃⌘P"
+          },
+          {
+            "label": "Quick Share",
+            "systemImage": "square.and.arrow.up",
+            "shortcut": "⇧⌘A"
+          },
+          {
+            "label": "Insert Table",
+            "systemImage": "tablecells.fill",
+            "shortcut": "⌥⌘T"
+          },
+          {
+            "label": "Drop Shelf",
+            "systemImage": "tray.and.arrow.down.fill",
+            "systemAction": "toggleDropShelf"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "⇧⌘L"
+          },
+          "button4_click": {
+            "shortcut": "⌘N"
+          }
+        }
+      },
+      "emoji": "📝"
+    },
+    {
+      "id": "com.community.xcode-developer-deck",
+      "name": "Xcode Swift Developer Deck",
+      "author": {
+        "name": "CupertinoDev",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.apple.dt.Xcode",
+      "targetAppName": "Xcode",
+      "isGlobal": false,
+      "category": "coding",
+      "description": "1-click Build & Run, Clean Build, SwiftUI Canvas Preview toggle, Open Quickly, and Jump to Definition.",
+      "icon": "hammer.circle.fill",
+      "file": "plugins/com.community.xcode-developer-deck.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.xcode-developer-deck.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.xcode-developer-deck",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Build & Run",
+            "systemImage": "play.fill",
+            "shortcut": "⌘R"
+          },
+          {
+            "label": "Clean Build",
+            "systemImage": "trash.fill",
+            "shortcut": "⇧⌘K"
+          },
+          {
+            "label": "Open Quickly",
+            "systemImage": "magnifyingglass",
+            "shortcut": "⇧⌘O"
+          },
+          {
+            "label": "Canvas Preview",
+            "systemImage": "macwindow.on.rectangle",
+            "shortcut": "⌥⌘↩"
+          },
+          {
+            "label": "Jump Definition",
+            "systemImage": "arrow.right.circle.fill",
+            "shortcut": "⌃⌘J"
+          },
+          {
+            "label": "Debug Area",
+            "systemImage": "ant.fill",
+            "shortcut": "⇧⌘Y"
+          },
+          {
+            "label": "Navigator",
+            "systemImage": "sidebar.left",
+            "shortcut": "⌘0"
+          },
+          {
+            "label": "Stop Build",
+            "systemImage": "stop.fill",
+            "shortcut": "⌘."
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "⌃⌘J"
+          },
+          "button4_click": {
+            "shortcut": "⌘R"
+          }
+        }
+      },
+      "emoji": "🛠️"
     }
   ]
 }

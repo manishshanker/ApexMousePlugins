@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.ms-outlook-triage",
+  "name": "Microsoft Outlook Power Triage",
+  "author": {
+    "name": "OfficeFlow",
+    "url": "https://apexmouse.tech/plugins"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.microsoft.Outlook",
+  "targetAppName": "Microsoft Outlook",
+  "category": "productivity",
+  "description": "Rapid inbox triage, 1-click Reply All, Archive, Flag Task, New Event, and Calendar view switching for Outlook Mac.",
+  "icon": "envelope.badge.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "New Email",
+        "systemImage": "square.and.pencil",
+        "shortcut": "⌘N"
+      },
+      {
+        "label": "Reply All",
+        "systemImage": "arrowshape.turn.up.left.2.fill",
+        "shortcut": "⇧⌘R"
+      },
+      {
+        "label": "Forward",
+        "systemImage": "arrowshape.turn.up.right.fill",
+        "shortcut": "⌘J"
+      },
+      {
+        "label": "Archive",
+        "systemImage": "archivebox.fill",
+        "shortcut": "⌃E"
+      },
+      {
+        "label": "Flag Task",
+        "systemImage": "flag.fill",
+        "shortcut": "'"
+      },
+      {
+        "label": "Mark Unread",
+        "systemImage": "envelope.fill",
+        "shortcut": "⇧⌘U"
+      },
+      {
+        "label": "Calendar View",
+        "systemImage": "calendar",
+        "shortcut": "⌘2"
+      },
+      {
+        "label": "Search Mailbox",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⌥⌘F"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "⌃E"
+      },
+      "button4_click": {
+        "shortcut": "⇧⌘R"
+      }
+    }
+  },
+  "emoji": "📧"
+}

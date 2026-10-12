@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.apple-notes-flow",
+  "name": "Apple Notes Quick Workbench",
+  "author": {
+    "name": "PaperlessMac",
+    "url": "https://apexmouse.tech/plugins"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.apple.Notes",
+  "targetAppName": "Apple Notes",
+  "category": "productivity",
+  "description": "Instant checklist generation, title formatting, search, attachment preview, and floating note creation.",
+  "icon": "note.text",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "New Note",
+        "systemImage": "square.and.pencil",
+        "shortcut": "⌘N"
+      },
+      {
+        "label": "Checklist",
+        "systemImage": "checklist",
+        "shortcut": "⇧⌘L"
+      },
+      {
+        "label": "Title Format",
+        "systemImage": "textformat.size",
+        "shortcut": "⇧⌘T"
+      },
+      {
+        "label": "Search Notes",
+        "systemImage": "magnifyingglass",
+        "shortcut": "⌥⌘F"
+      },
+      {
+        "label": "Pin Note",
+        "systemImage": "pin.fill",
+        "shortcut": "⌃⌘P"
+      },
+      {
+        "label": "Quick Share",
+        "systemImage": "square.and.arrow.up",
+        "shortcut": "⇧⌘A"
+      },
+      {
+        "label": "Insert Table",
+        "systemImage": "tablecells.fill",
+        "shortcut": "⌥⌘T"
+      },
+      {
+        "label": "Drop Shelf",
+        "systemImage": "tray.and.arrow.down.fill",
+        "systemAction": "toggleDropShelf"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "⇧⌘L"
+      },
+      "button4_click": {
+        "shortcut": "⌘N"
+      }
+    }
+  },
+  "emoji": "📝"
+}

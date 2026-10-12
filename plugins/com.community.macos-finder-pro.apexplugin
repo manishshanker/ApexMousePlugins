@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.macos-finder-pro",
+  "name": "macOS Finder & File Manager Deck",
+  "author": {
+    "name": "FileCraft",
+    "url": "https://apexmouse.tech/plugins"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.apple.finder",
+  "targetAppName": "Finder",
+  "category": "productivity",
+  "description": "Quick Look previews, batch duplication, smart folder creation, Show Hidden Files, and instant Drop Shelf staging.",
+  "icon": "folder.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Quick Look",
+        "systemImage": "eye.fill",
+        "shortcut": "Space"
+      },
+      {
+        "label": "New Folder",
+        "systemImage": "folder.badge.plus",
+        "shortcut": "⇧⌘N"
+      },
+      {
+        "label": "Move to Trash",
+        "systemImage": "trash.fill",
+        "shortcut": "⌘⌫"
+      },
+      {
+        "label": "Duplicate",
+        "systemImage": "doc.on.doc.fill",
+        "shortcut": "⌘D"
+      },
+      {
+        "label": "Get Info",
+        "systemImage": "info.circle.fill",
+        "shortcut": "⌘I"
+      },
+      {
+        "label": "Drop Shelf",
+        "systemImage": "tray.and.arrow.down.fill",
+        "systemAction": "toggleDropShelf"
+      },
+      {
+        "label": "Hidden Files",
+        "systemImage": "eye.slash.fill",
+        "shortcut": "⇧⌘."
+      },
+      {
+        "label": "Columns View",
+        "systemImage": "rectangle.split.3x1.fill",
+        "shortcut": "⌘3"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "shortcut": "Space"
+      },
+      "button4_click": {
+        "systemAction": "toggleDropShelf"
+      }
+    }
+  },
+  "emoji": "📁"
+}

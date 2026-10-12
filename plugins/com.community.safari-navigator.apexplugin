@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "id": "com.community.safari-navigator",
+  "name": "Safari Precision Navigator",
+  "author": {
+    "name": "WebKitPilot",
+    "url": "https://apexmouse.tech/plugins"
+  },
+  "version": "1.0.0",
+  "targetBundleId": "com.apple.Safari",
+  "targetAppName": "Safari",
+  "category": "productivity",
+  "description": "Distraction-free Reader Mode, Web Inspector, instant Tab Cycler, Private Window, and Web Clipping shortcuts.",
+  "icon": "safari.fill",
+  "contents": {
+    "radialMenu": [
+      {
+        "label": "Back",
+        "systemImage": "chevron.left",
+        "shortcut": "⌘["
+      },
+      {
+        "label": "Forward",
+        "systemImage": "chevron.right",
+        "shortcut": "⌘]"
+      },
+      {
+        "label": "Reader Mode",
+        "systemImage": "doc.plaintext.fill",
+        "shortcut": "⇧⌘R"
+      },
+      {
+        "label": "Web Inspector",
+        "systemImage": "hammer.fill",
+        "shortcut": "⌥⌘I"
+      },
+      {
+        "label": "New Tab",
+        "systemImage": "plus",
+        "shortcut": "⌘T"
+      },
+      {
+        "label": "Close Tab",
+        "systemImage": "xmark",
+        "shortcut": "⌘W"
+      },
+      {
+        "label": "Reopen Tab",
+        "systemImage": "arrow.counterclockwise",
+        "shortcut": "⇧⌘T"
+      },
+      {
+        "label": "Bookmark",
+        "systemImage": "star.fill",
+        "shortcut": "⌘D"
+      }
+    ],
+    "buttonMappings": {
+      "button3_click": {
+        "systemAction": "cyclePreviousTab"
+      },
+      "button4_click": {
+        "systemAction": "cycleNextTab"
+      }
+    }
+  },
+  "emoji": "🧭"
+}
