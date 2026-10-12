@@ -1,0 +1,71 @@
+name: Update Plugin Catalog
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'plugins/**'
+      - 'scripts/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'plugins/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+concurrency:
+  group: catalog-update-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate Plugins
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate plugin schemas & safety rules
+        run: node scripts/update-catalog.js --validate-only
+
+  update-catalog:
+    name: Build & Push Catalog
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Rebuild catalog.json
+        run: node scripts/update-catalog.js
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet catalog.json; then
+            echo "✅ catalog.json is already up to date. No commit needed."
+          else
+            echo "📝 Changes detected in catalog.json. Committing and pushing..."
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add catalog.json
+            git commit -m "chore(catalog): auto-update catalog.json [skip ci]"
+            git push origin ${{ github.ref_name }}
+          fi

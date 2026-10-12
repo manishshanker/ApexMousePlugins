@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-10-12T12:34:37.079Z",
-  "totalPlugins": 20,
+  "lastUpdated": "2026-10-12T15:59:02.482Z",
+  "totalPlugins": 21,
   "plugins": [
     {
       "id": "com.community.macos-power-tools",
@@ -1427,6 +1427,82 @@
         }
       },
       "emoji": "🛠️"
+    },
+    {
+      "id": "com.community.antigravity-ide",
+      "name": "Antigravity AI IDE Velocity",
+      "author": {
+        "name": "AgyTeam",
+        "url": "https://apexmouse.tech/plugins"
+      },
+      "version": "1.0.0",
+      "targetBundleId": "com.google.antigravity-ide",
+      "targetAppName": "Antigravity IDE",
+      "isGlobal": false,
+      "category": "coding",
+      "description": "AI pair programming speed-dial: Terminal toggle, Agent Focus/Prompt, Command Palette, Code Format, File Tree, Git Diff, and Task Run.",
+      "icon": "sparkles.rectangle.stack",
+      "file": "plugins/com.community.antigravity-ide.apexplugin",
+      "downloadUrl": "https://raw.githubusercontent.com/manishshanker/ApexMousePlugins/main/plugins/com.community.antigravity-ide.apexplugin",
+      "deepLinkUrl": "apexmouse://plugin/install?id=com.community.antigravity-ide",
+      "contents": {
+        "radialMenu": [
+          {
+            "label": "Command Palette",
+            "systemImage": "command",
+            "shortcut": "⇧⌘P"
+          },
+          {
+            "label": "Agent Prompt",
+            "systemImage": "sparkles",
+            "shortcut": "⌘K"
+          },
+          {
+            "label": "Terminal",
+            "systemImage": "terminal.fill",
+            "shortcut": "⌃`"
+          },
+          {
+            "label": "Format Code",
+            "systemImage": "text.alignleft",
+            "shortcut": "⇧⌥F"
+          },
+          {
+            "label": "Git Changes",
+            "systemImage": "arrow.triangle.branch",
+            "shortcut": "⌃⇧G"
+          },
+          {
+            "label": "File Explorer",
+            "systemImage": "sidebar.left",
+            "shortcut": "⌘B"
+          },
+          {
+            "label": "Run Task",
+            "systemImage": "play.fill",
+            "shortcut": "⇧⌘B"
+          },
+          {
+            "label": "Quick Open",
+            "systemImage": "magnifyingglass",
+            "shortcut": "⌘P"
+          }
+        ],
+        "buttonMappings": {
+          "button3_click": {
+            "shortcut": "⌘Z"
+          },
+          "button4_click": {
+            "shortcut": "⇧⌘Z"
+          }
+        },
+        "scrollOverrides": {
+          "speed": 1.15,
+          "duration": 0.18,
+          "smoothScrollEnabled": true
+        }
+      },
+      "emoji": "⚡"
     }
   ]
 }
